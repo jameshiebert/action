@@ -19,4 +19,6 @@ jobs:
     - name: List existing install
       run: pip freeze
     - name: Install Requests
-      run: pip install -U pip && pip install requests==2.22.0
+      run: pip install -U pip && pip install PyYAML==5.1.0
+    - name: Do something else
+      run: echo "True"
